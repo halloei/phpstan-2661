@@ -1,0 +1,13 @@
+version: '3.5'
+
+services:
+  app:
+    build:
+      context: .
+      target: dev
+      args:
+        user_id: $USER_ID
+        group_id: $GROUP_ID
+    container_name: $COMPOSE_PROJECT_NAME
+    volumes:
+      - ..:/usr/src/app
