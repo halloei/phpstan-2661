@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c1f667880842387bf40759bcc4d78995",
+    "content-hash": "6f88c3f63ebf90b35f3f2bd7c54cdee6",
     "packages": [],
     "packages-dev": [
         {
@@ -98,62 +98,6 @@
             ],
             "description": "PHPStan - PHP Static Analysis Tool",
             "time": "2019-12-09T09:13:49+00:00"
-        },
-        {
-            "name": "phpstan/phpstan-phpunit",
-            "version": "0.12.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpstan/phpstan-phpunit.git",
-                "reference": "cc14b74ba437bb08ce189aada455946890a8414b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-phpunit/zipball/cc14b74ba437bb08ce189aada455946890a8414b",
-                "reference": "cc14b74ba437bb08ce189aada455946890a8414b",
-                "shasum": ""
-            },
-            "require": {
-                "nikic/php-parser": "^4.0",
-                "php": "~7.1",
-                "phpstan/phpstan": "^0.12"
-            },
-            "conflict": {
-                "phpunit/phpunit": "<7.0"
-            },
-            "require-dev": {
-                "consistence/coding-standard": "^3.5",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
-                "jakub-onderka/php-parallel-lint": "^1.0",
-                "phing/phing": "^2.16.0",
-                "phpstan/phpstan-strict-rules": "^0.12",
-                "phpunit/phpunit": "^7.0",
-                "satooshi/php-coveralls": "^1.0",
-                "slevomat/coding-standard": "^4.7.2"
-            },
-            "type": "phpstan-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.12-dev"
-                },
-                "phpstan": {
-                    "includes": [
-                        "extension.neon",
-                        "rules.neon"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PHPStan\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "PHPUnit extensions and rules for PHPStan",
-            "time": "2019-12-07T20:34:22+00:00"
         }
     ],
     "aliases": [],
@@ -164,5 +108,6 @@
     "platform": {
         "php": ">=7.2"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
 }
