@@ -18,7 +18,7 @@
     },
 
     "scripts": {
-        "phpstan": "tools/phpstan analyze",
+        "phpstan": "vendor/bin/phpstan analyze",
         "test": "tools/phpunit.phar tests"
     }
 }
