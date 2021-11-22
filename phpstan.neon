@@ -3,4 +3,4 @@ parameters:
         -   tests
     level: 3
     scanFiles:
-        - phar://%rootDir%/../tools/phpunit.phar
+        - phar://%rootDir%/../../../tools/phpunit.phar
