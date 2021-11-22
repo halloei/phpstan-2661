@@ -2,5 +2,5 @@ parameters:
     paths:
         -   tests
     level: 3
-    autoload_files:
+    scanFiles:
         - phar://%rootDir%/../tools/phpunit.phar
