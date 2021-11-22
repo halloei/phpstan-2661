@@ -1,10 +1,10 @@
 {
-    "name": "rask/phpstan-2661",
+    "name": "halloei/phpstan-2661",
     "description": "Bug reproduction project",
     "license": "MIT",
 
     "require": {
-        "php": ">=7.2"
+        "php": "^8.0"
     },
 
     "require-dev": {
